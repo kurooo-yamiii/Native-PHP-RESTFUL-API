@@ -1,0 +1,129 @@
+
+body {
+	background:#262931;
+	height: 100vh;
+    padding-top: 3%;
+}
+.label1, .label4 {
+    width: 245px;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0;
+    font-size: 13px;
+    margin-bottom: 14px;
+    line-height: 20px;
+}
+
+.label2, .label3 {
+    width: 245px;
+    font-weight: 600;
+    color: darkgrey;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+.pic1 {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    border-radius: 30px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.centerimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+.allgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.allgrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    margin-right: 10%;
+    margin-left: 14%;
+    margin-top: 3%;
+}
+.boxgrid {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    margin-bottom: 4%;
+ 
+    
+}
+.picture2 {
+    width: 20%;
+    margin-bottom: 5px;
+  
+
+}
+.picture2:hover{
+    width: 25%;
+    margin-bottom: 5px;
+    transition: 0.70s;
+}
+.picture1 {
+    width: 50%;
+    margin-bottom: 5px;
+  
+
+}
+.picture1:hover{
+    width: 55%;
+    margin-bottom: 5px;
+    transition: 0.70s;
+}
+.header {
+    background-color:#1b1c21;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header1{
+    width: 150px;
+    margin-left: 20px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.menu {
+    width: 100%;
+    margin-top: 24%;
+    
+}
+.space{
+    height: 10%;
+}
